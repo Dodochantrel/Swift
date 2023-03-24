@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AC5A7D829CDD9E40011CB93 /* DorianChantrelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A7D729CDD9E40011CB93 /* DorianChantrelApp.swift */; };
+		3AC5A7DA29CDD9E40011CB93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A7D929CDD9E40011CB93 /* ContentView.swift */; };
+		3AC5A7DC29CDD9E50011CB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC5A7DB29CDD9E50011CB93 /* Assets.xcassets */; };
+		3AC5A7DF29CDD9E50011CB93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC5A7DE29CDD9E50011CB93 /* Preview Assets.xcassets */; };
+		3AC5A7E929CDD9E50011CB93 /* DorianChantrelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A7E829CDD9E50011CB93 /* DorianChantrelTests.swift */; };
+		3AC5A7F329CDD9E50011CB93 /* DorianChantrelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A7F229CDD9E50011CB93 /* DorianChantrelUITests.swift */; };
+		3AC5A7F529CDD9E50011CB93 /* DorianChantrelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A7F429CDD9E50011CB93 /* DorianChantrelUITestsLaunchTests.swift */; };
+		3AC5A80229CDDA140011CB93 /* Exercice1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A80129CDDA140011CB93 /* Exercice1.swift */; };
+		3AC5A80429CDDA200011CB93 /* Exercice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A80329CDDA200011CB93 /* Exercice2.swift */; };
+		3AC5A80629CDDA2B0011CB93 /* Exercice3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A80529CDDA2B0011CB93 /* Exercice3.swift */; };
+		3AC5A80829CDDDF30011CB93 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A80729CDDDF30011CB93 /* Pizza.swift */; };
+		3AC5A80A29CDDF830011CB93 /* PizzaCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A80929CDDF830011CB93 /* PizzaCellView.swift */; };
+		3AC5A80E29CDE7B20011CB93 /* CreatePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A80D29CDE7B20011CB93 /* CreatePizza.swift */; };
+		3AC5A81029CDF6C60011CB93 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A80F29CDF6C60011CB93 /* Movie.swift */; };
+		3AC5A81229CDF7100011CB93 /* APIMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5A81129CDF7100011CB93 /* APIMovie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AC5A7E529CDD9E50011CB93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC5A7CC29CDD9E40011CB93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AC5A7D329CDD9E40011CB93;
+			remoteInfo = DorianChantrel;
+		};
+		3AC5A7EF29CDD9E50011CB93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC5A7CC29CDD9E40011CB93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AC5A7D329CDD9E40011CB93;
+			remoteInfo = DorianChantrel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AC5A7D429CDD9E40011CB93 /* DorianChantrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DorianChantrel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC5A7D729CDD9E40011CB93 /* DorianChantrelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DorianChantrelApp.swift; sourceTree = "<group>"; };
+		3AC5A7D929CDD9E40011CB93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AC5A7DB29CDD9E50011CB93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AC5A7DE29CDD9E50011CB93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AC5A7E429CDD9E50011CB93 /* DorianChantrelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DorianChantrelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC5A7E829CDD9E50011CB93 /* DorianChantrelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DorianChantrelTests.swift; sourceTree = "<group>"; };
+		3AC5A7EE29CDD9E50011CB93 /* DorianChantrelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DorianChantrelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC5A7F229CDD9E50011CB93 /* DorianChantrelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DorianChantrelUITests.swift; sourceTree = "<group>"; };
+		3AC5A7F429CDD9E50011CB93 /* DorianChantrelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DorianChantrelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AC5A80129CDDA140011CB93 /* Exercice1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercice1.swift; sourceTree = "<group>"; };
+		3AC5A80329CDDA200011CB93 /* Exercice2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercice2.swift; sourceTree = "<group>"; };
+		3AC5A80529CDDA2B0011CB93 /* Exercice3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercice3.swift; sourceTree = "<group>"; };
+		3AC5A80729CDDDF30011CB93 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		3AC5A80929CDDF830011CB93 /* PizzaCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaCellView.swift; sourceTree = "<group>"; };
+		3AC5A80D29CDE7B20011CB93 /* CreatePizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePizza.swift; sourceTree = "<group>"; };
+		3AC5A80F29CDF6C60011CB93 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		3AC5A81129CDF7100011CB93 /* APIMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMovie.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AC5A7D129CDD9E40011CB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC5A7E129CDD9E50011CB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC5A7EB29CDD9E50011CB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AC5A7CB29CDD9E40011CB93 = {
+			isa = PBXGroup;
+			children = (
+				3AC5A7D629CDD9E40011CB93 /* DorianChantrel */,
+				3AC5A7E729CDD9E50011CB93 /* DorianChantrelTests */,
+				3AC5A7F129CDD9E50011CB93 /* DorianChantrelUITests */,
+				3AC5A7D529CDD9E40011CB93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AC5A7D529CDD9E40011CB93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5A7D429CDD9E40011CB93 /* DorianChantrel.app */,
+				3AC5A7E429CDD9E50011CB93 /* DorianChantrelTests.xctest */,
+				3AC5A7EE29CDD9E50011CB93 /* DorianChantrelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AC5A7D629CDD9E40011CB93 /* DorianChantrel */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5A7D729CDD9E40011CB93 /* DorianChantrelApp.swift */,
+				3AC5A7D929CDD9E40011CB93 /* ContentView.swift */,
+				3AC5A7DB29CDD9E50011CB93 /* Assets.xcassets */,
+				3AC5A7DD29CDD9E50011CB93 /* Preview Content */,
+				3AC5A80129CDDA140011CB93 /* Exercice1.swift */,
+				3AC5A80329CDDA200011CB93 /* Exercice2.swift */,
+				3AC5A80529CDDA2B0011CB93 /* Exercice3.swift */,
+				3AC5A80729CDDDF30011CB93 /* Pizza.swift */,
+				3AC5A80929CDDF830011CB93 /* PizzaCellView.swift */,
+				3AC5A80D29CDE7B20011CB93 /* CreatePizza.swift */,
+				3AC5A80F29CDF6C60011CB93 /* Movie.swift */,
+				3AC5A81129CDF7100011CB93 /* APIMovie.swift */,
+			);
+			path = DorianChantrel;
+			sourceTree = "<group>";
+		};
+		3AC5A7DD29CDD9E50011CB93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5A7DE29CDD9E50011CB93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AC5A7E729CDD9E50011CB93 /* DorianChantrelTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5A7E829CDD9E50011CB93 /* DorianChantrelTests.swift */,
+			);
+			path = DorianChantrelTests;
+			sourceTree = "<group>";
+		};
+		3AC5A7F129CDD9E50011CB93 /* DorianChantrelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5A7F229CDD9E50011CB93 /* DorianChantrelUITests.swift */,
+				3AC5A7F429CDD9E50011CB93 /* DorianChantrelUITestsLaunchTests.swift */,
+			);
+			path = DorianChantrelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AC5A7D329CDD9E40011CB93 /* DorianChantrel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC5A7F829CDD9E50011CB93 /* Build configuration list for PBXNativeTarget "DorianChantrel" */;
+			buildPhases = (
+				3AC5A7D029CDD9E40011CB93 /* Sources */,
+				3AC5A7D129CDD9E40011CB93 /* Frameworks */,
+				3AC5A7D229CDD9E40011CB93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DorianChantrel;
+			productName = DorianChantrel;
+			productReference = 3AC5A7D429CDD9E40011CB93 /* DorianChantrel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AC5A7E329CDD9E50011CB93 /* DorianChantrelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC5A7FB29CDD9E50011CB93 /* Build configuration list for PBXNativeTarget "DorianChantrelTests" */;
+			buildPhases = (
+				3AC5A7E029CDD9E50011CB93 /* Sources */,
+				3AC5A7E129CDD9E50011CB93 /* Frameworks */,
+				3AC5A7E229CDD9E50011CB93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AC5A7E629CDD9E50011CB93 /* PBXTargetDependency */,
+			);
+			name = DorianChantrelTests;
+			productName = DorianChantrelTests;
+			productReference = 3AC5A7E429CDD9E50011CB93 /* DorianChantrelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AC5A7ED29CDD9E50011CB93 /* DorianChantrelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC5A7FE29CDD9E50011CB93 /* Build configuration list for PBXNativeTarget "DorianChantrelUITests" */;
+			buildPhases = (
+				3AC5A7EA29CDD9E50011CB93 /* Sources */,
+				3AC5A7EB29CDD9E50011CB93 /* Frameworks */,
+				3AC5A7EC29CDD9E50011CB93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AC5A7F029CDD9E50011CB93 /* PBXTargetDependency */,
+			);
+			name = DorianChantrelUITests;
+			productName = DorianChantrelUITests;
+			productReference = 3AC5A7EE29CDD9E50011CB93 /* DorianChantrelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AC5A7CC29CDD9E40011CB93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3AC5A7D329CDD9E40011CB93 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3AC5A7E329CDD9E50011CB93 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3AC5A7D329CDD9E40011CB93;
+					};
+					3AC5A7ED29CDD9E50011CB93 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3AC5A7D329CDD9E40011CB93;
+					};
+				};
+			};
+			buildConfigurationList = 3AC5A7CF29CDD9E40011CB93 /* Build configuration list for PBXProject "DorianChantrel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AC5A7CB29CDD9E40011CB93;
+			productRefGroup = 3AC5A7D529CDD9E40011CB93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AC5A7D329CDD9E40011CB93 /* DorianChantrel */,
+				3AC5A7E329CDD9E50011CB93 /* DorianChantrelTests */,
+				3AC5A7ED29CDD9E50011CB93 /* DorianChantrelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AC5A7D229CDD9E40011CB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC5A7DF29CDD9E50011CB93 /* Preview Assets.xcassets in Resources */,
+				3AC5A7DC29CDD9E50011CB93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC5A7E229CDD9E50011CB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC5A7EC29CDD9E50011CB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AC5A7D029CDD9E40011CB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC5A80429CDDA200011CB93 /* Exercice2.swift in Sources */,
+				3AC5A80629CDDA2B0011CB93 /* Exercice3.swift in Sources */,
+				3AC5A81029CDF6C60011CB93 /* Movie.swift in Sources */,
+				3AC5A80829CDDDF30011CB93 /* Pizza.swift in Sources */,
+				3AC5A7DA29CDD9E40011CB93 /* ContentView.swift in Sources */,
+				3AC5A7D829CDD9E40011CB93 /* DorianChantrelApp.swift in Sources */,
+				3AC5A80229CDDA140011CB93 /* Exercice1.swift in Sources */,
+				3AC5A81229CDF7100011CB93 /* APIMovie.swift in Sources */,
+				3AC5A80E29CDE7B20011CB93 /* CreatePizza.swift in Sources */,
+				3AC5A80A29CDDF830011CB93 /* PizzaCellView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC5A7E029CDD9E50011CB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC5A7E929CDD9E50011CB93 /* DorianChantrelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC5A7EA29CDD9E50011CB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC5A7F529CDD9E50011CB93 /* DorianChantrelUITestsLaunchTests.swift in Sources */,
+				3AC5A7F329CDD9E50011CB93 /* DorianChantrelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AC5A7E629CDD9E50011CB93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AC5A7D329CDD9E40011CB93 /* DorianChantrel */;
+			targetProxy = 3AC5A7E529CDD9E50011CB93 /* PBXContainerItemProxy */;
+		};
+		3AC5A7F029CDD9E50011CB93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AC5A7D329CDD9E40011CB93 /* DorianChantrel */;
+			targetProxy = 3AC5A7EF29CDD9E50011CB93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AC5A7F629CDD9E50011CB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AC5A7F729CDD9E50011CB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AC5A7F929CDD9E50011CB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DorianChantrel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorian.DorianChantrel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AC5A7FA29CDD9E50011CB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DorianChantrel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorian.DorianChantrel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AC5A7FC29CDD9E50011CB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorian.DorianChantrelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DorianChantrel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DorianChantrel";
+			};
+			name = Debug;
+		};
+		3AC5A7FD29CDD9E50011CB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorian.DorianChantrelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DorianChantrel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DorianChantrel";
+			};
+			name = Release;
+		};
+		3AC5A7FF29CDD9E50011CB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorian.DorianChantrelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DorianChantrel;
+			};
+			name = Debug;
+		};
+		3AC5A80029CDD9E50011CB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorian.DorianChantrelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DorianChantrel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AC5A7CF29CDD9E40011CB93 /* Build configuration list for PBXProject "DorianChantrel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC5A7F629CDD9E50011CB93 /* Debug */,
+				3AC5A7F729CDD9E50011CB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC5A7F829CDD9E50011CB93 /* Build configuration list for PBXNativeTarget "DorianChantrel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC5A7F929CDD9E50011CB93 /* Debug */,
+				3AC5A7FA29CDD9E50011CB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC5A7FB29CDD9E50011CB93 /* Build configuration list for PBXNativeTarget "DorianChantrelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC5A7FC29CDD9E50011CB93 /* Debug */,
+				3AC5A7FD29CDD9E50011CB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC5A7FE29CDD9E50011CB93 /* Build configuration list for PBXNativeTarget "DorianChantrelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC5A7FF29CDD9E50011CB93 /* Debug */,
+				3AC5A80029CDD9E50011CB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AC5A7CC29CDD9E40011CB93 /* Project object */;
+}
